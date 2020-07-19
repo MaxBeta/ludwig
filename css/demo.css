@@ -1,3 +1,21 @@
+@font-face {
+    font-family:"Montserrat";
+    src: url("../fonts/Montserrat/Montserrat-Regular.ttf") format('truetype'); /* TTF file for CSS3 browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:"Montserrat";
+    src: url("../fonts/Montserrat/Montserrat-Bold.ttf") format('truetype'); /* TTF file for CSS3 browsers */
+    font-weight: bold;
+}
+@font-face {
+    font-family:"Montserrat";
+    src: url("../fonts/Montserrat/Montserrat-ExtraLight.ttf") format('truetype'); /* TTF file for CSS3 browsers */
+    font-weight: ExtraLight;
+}
+
 *,
 *:after,
 *:before {
@@ -16,7 +34,7 @@ html{
     overflow: hidden; */
 }
 body {
-  font-family: 'Avenir Next', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: Bold, 'Montserrat', sans-serif;
   color: rgba(0, 0, 0, 1.0);
   /* background: rgba(66, 66, 66, 1.0); */
 
@@ -97,9 +115,9 @@ img {
   height: 20em;
 }
 .number{
-  position: relative; /* Position the background text */
+  position: absolute; /* Position the background text */
   bottom: 0; /* At the bottom. Use top:0 to append it to the top */
-
+  font-weight: ExtraLight;
   color: #fff;
   width: 50%; /* Full width */
   height: 100%;
@@ -111,7 +129,7 @@ img {
 .sectionheading{
   position: absolute;
   bottom: 0;
-
+  font-weight: bold;
   color: #fff;
   width: 50%;
   height: 100%;
