@@ -111,7 +111,7 @@ img {
 }
 
 #banner{
-  margin-bottom: 20px;
+  margin-bottom: 12vh;
   height: 20em;
 }
 .number{
@@ -150,7 +150,12 @@ a:focus {
   color: #111;
 }
 h1{
-  font-size: 4vh;
+  font-size: 8vh;
+}
+h2{
+  margin-top: 0;
+  font-size: 8vh;
+  font-weight: normal;
 }
 
 #contentdiv{
