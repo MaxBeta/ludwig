@@ -111,7 +111,6 @@ img {
   position: absolute; /* Position the background text */
   bottom: 0; /* At the bottom. Use top:0 to append it to the top */
 
-  color: #000;
   width: 50%; /* Full width */
   height: 100%;
   padding: 48px; /* Some padding */
@@ -170,7 +169,6 @@ h2{
   margin-left: 15%;
   margin-right: auto;
   width: 60%;
-  color:#000;
 }
 
 #container{
@@ -193,7 +191,6 @@ h2{
 }
 
 #maindiv>* {
-  color: black;
 }
 
 #current_section{
@@ -232,18 +229,15 @@ i{
   bottom: 0;
   width: 100%;
   background-color: rgba(66, 66, 66, 0.0);
-  color: black;
   text-align: center;
   font-size: 100%;
 }
 
 #footer a:hover{
 transform: scale(0.85);
-color: black;
 }
 
 #footer a{
-color: black;
 }
 
 /* Content */
