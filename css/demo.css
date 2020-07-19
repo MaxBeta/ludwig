@@ -149,6 +149,9 @@ a:hover,
 a:focus {
   color: #111;
 }
+h1{
+  font-size: 4vh;
+}
 
 #contentdiv{
   margin-left: 15%;
