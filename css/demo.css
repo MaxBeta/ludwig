@@ -41,7 +41,7 @@ html{
 }
 body {
   font-family: Bold, 'Montserrat', sans-serif;
-  color: rgba(0, 0, 0, 1.0);
+  color: #323232;
   /* background: rgba(66, 66, 66, 1.0); */
 
   /* background-repeat:no-repeat;
@@ -63,6 +63,7 @@ a {
 
 p {
   font-weight: 200;
+  letter-spacing: 0.4px;
 }
 
 img {
@@ -288,7 +289,7 @@ nav.stroke ul li a {
   display: block;
   padding: 15px;
   text-decoration: none;
-  color: #aaa;
+  color: #B4B4B4;
   /* font-weight: 800; */
   margin: 0 10px;
 }
@@ -361,7 +362,7 @@ nav.vertical ul li a:before {
   transition: all .5s;
 }
 nav.vertical ul li a:hover {
-  color: #555;
+  color: #323232;
 }
 
 
